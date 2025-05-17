@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Share+Tech&display=swap);
+
+h1 { color: rgb(255, 255, 255);
+    background-color: rgb(128, 79, 5);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: lowercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.urmee{
+     width: 800px;
+    height: 100%;
+    background-color:rgb(194, 182, 236);
+    margin-left:200px ;
+    padding: 10px 20px 10px 70px;
+    border-radius: 1090px;
+    font-family: "Share Tech", sans-serif;
+}
+
+.item2{
+    color: rgb(221, 147, 35);
+    background-color: rgb(0, 255, 21);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: lowercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.tuli{
+    width: 800px;
+    height: 100%;
+    background-color:rgb(115, 248, 241);
+    margin-left:200px ;
+    padding: 10px 20px 10px 70px;
+    border-radius: 1090px;
+    font-family: "Share Tech", sans-serif;
+}
+
+.item3{
+    color: rgb(76, 255, 6);
+    background-color: rgb(68, 0, 42);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: lowercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Suhana{
+    width: 800px;
+    height: 100%;
+    background-color:rgb(26, 182, 20);
+    margin-left:200px ;
+    padding: 10px 20px 10px 70px;
+    border-radius: 1090px;
+    font-family: "Share Tech", sans-serif;
+}
+
+.item4{
+     color: rgb(76, 12, 180);
+    background-color: rgb(141, 141, 141);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: lowercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.Mithila{
+     width: 800px;
+    height: 100%;
+    background-color:rgb(209, 95, 19);
+    margin-left:200px ;
+    padding: 10px 20px 10px 70px;
+    border-radius: 1090px;
+    font-family: "Share Tech", sans-serif;
+}
+.item5{
+    color: rgb(76, 12, 180);
+    background-color: rgb(141, 141, 141);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: lowercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: aquamarine;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Takiya{
+    width: 800px;
+    height: 100%;
+    background-color:rgb(196, 18, 157);
+    margin-left:200px ;
+    padding: 10px 20px 10px 70px;
+    border-radius: 1090px;
+    font-family: "Share Tech", sans-serif;
+}

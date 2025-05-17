@@ -1,0 +1,55 @@
+.home{
+   width: 40;
+   height: 50;
+   background-color:#04AA6D;
+   font-family:Verdana;
+   margin-right:900px;
+    padding: 10px;
+    color: white;
+      
+}
+    
+.News{
+   width: 40;
+   height: 50;
+   background-color:#F1F1F1;
+   font-family:Verdana;
+   margin-right:900px;
+    padding: 10px;
+    color: rgb(19, 17, 17);
+}
+
+.News:hover{
+    color:white;
+    background-color: #797676;
+}
+
+.content{
+   width: 40;
+   height: 50;
+   background-color:#F1F1F1;
+   font-family:Verdana;
+   margin-right:900px;
+    padding: 10px;
+    color: rgb(19, 17, 17);
+}
+
+.content:hover{
+ color:white;
+    background-color: #797676;
+}
+
+.about{
+ width: 40;
+   height: 50;
+   background-color:#F1F1F1;
+   font-family:Verdana;
+   margin-right:900px;
+    padding: 10px;
+    color: rgb(19, 17, 17);
+}
+
+.about:hover{
+    color:white;
+    background-color: #797676;
+}
