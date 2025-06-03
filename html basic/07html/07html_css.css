@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Share+Tech&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Share+Tech&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #D6C3B2;
 }
 
 body,html{
@@ -13,106 +11,238 @@ body,html{
     width: 100%;
 }
 
-.main-box{
+.navbar .header{
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    
-}
-.main-box .box2 {
-   
-    color: #000000;
-    align-items: center;
+    height: 10rem;
+    background-color: #18181B;
     display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: "Share Tech", sans-serif;
-    background-color: #000000;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 0px 10px #F21FE7 ;
+    padding: 0px 120px;
+    background: linear-gradient(351deg,rgba(11, 11, 13, 1) 47%, rgba(0, 212, 255, 0.52) 100%);
 }
 
-.box2 ul{
+.header_menu ul :hover{
+    background-color:#F21FE7;
+    padding: 10px;
+    border-style: solid;
+    color: #7fe9e0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar .header_logo img{
+    width: 150px;  
+}
+
+.header_menu .header_logo ul{
+    width: 100px;
+}
+
+.header_menu ul{
+    color: #36F7FC;
     list-style: none;
     display: flex;
-    gap: 30px;
-    font-size: medium;
+    gap: 50px;
+    font-size: 20px;
     font-family: font-family: "Share Tech", sans-serif;
-    
-    
-}
-
-.box2 ul :hover{
-    color: #000000;
-    background-color: #D6C3B2;
-    padding: 10px 10px 10px 10px;
-    
 }
 
 
-.main-section{
+.herosec .heroflex{
     width: 100%;
-    background-color: #cecece;
+    height:17cm;
+    background-color: #18181B;
     display: flex;
-    
-}
-
-.second-box{
-    width: 100%;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
     align-items: center;
-    background-color: #D6C3B2;
-    padding-left: 100px;
-    padding-top: 50px;
+    justify-content:space-between;
+    box-shadow: 10px 0px 10px 0px #F21FE7;
+    padding: 50px 150px 100px 0px;
 }
 
-.second-box h1{
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-size: 50px;
-    padding:0px 0px 10px 50px;
+.heroflex .tittle{
+    width: 100%;
+    height: 100%;
+    padding: 150px 0px 0px 120px;
 }
 
-.second-box h2{
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
+.tittle h1{
+    color: rgb(224, 219, 219);
+    font-family:cursive;
+    font-size: 20px;
+    
+}
+
+.tittle h3{
+     color: rgb(179, 176, 176);
     font-size: 18px;
-    padding:10px 0px 40px 50px;
+    font-family:unset;
+    padding-top: 15px;
 }
 
-.second-box h3{
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-size: 18px;
-    padding:10px 0px 20px 50px;
+.tittle .latest {
+  color: rgb(224, 219, 219);
+  font-family: serif;
+  font-size: 70px;
+  font-style: bold;
 }
 
-.image img{ 
-   background-color: #D6C3B2;
-   padding-right: 100px;
+.tittle .arrivals {
+  color: purple;
+  font-family: serif;
+  font-size: 70px;
+  font-style: bold;
 }
 
 
+.heroflex .picture{
+    padding: 10px;
+    width: 450px;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
 
 .section1{
     width: 100%;
+    height:40%;
+    background-color: #18181B;
+     box-shadow: 10px 0px 10px 0px #F21FE7;
+     padding: 60px 0px 60px 0px;
+     justify-items: center;
+}
+
+
+.section1 .title{
+    color: rgb(255, 255, 255);
+  font-family:serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+
+.section1 .text{
+    text-align: center;
+    color: #aeaeaf;
+    font-family: "Roboto Slab", serif;
+    font-size: 10px;
+}
+
+
+
+.scAllCartList{
+    width: 100%;
+    height:100%;
+    background-color: #18181B;
     justify-items: center;
-    font-size: 25px;
-    padding-top: 150px;
+    padding: 0px 0px 0px 100px;
+}
+
+
+.scAllCartList .cartlist{
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.top1 img{
+   width: 70%;
+    height: 80%;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.bottom1 h3{
+    font-family: "Share Tech", sans-serif;
+    color:#F21FE7;
     padding-top: 20px;
 }
 
-.section2{
-     list-style: none;
-    display: flex;
-    gap: 10px;
-    font-size: medium;
-    font-family: font-family: 'Playfair Display', serif;
+.bottom1 p{
+    font-family: "Share Tech", sans-serif;
+    color:#aeaeaf;
+    padding: 10px 0px 5px 0px;
+}
+
+.bottom1 .price span{
+    color:#36F7FC;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom1 button{
+    background-color: #F21FE7;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    
 }
 
 
+.top2 img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bottom2 h3{
+    font-family: "Share Tech", sans-serif;
+    color: #F21FE7;
+    padding-top: 20px;
+}
+
+.bottom2 p{
+    font-family: "Share Tech", sans-serif;
+    color:#aeaeaf;
+    padding: 10px 0px 5px 0px;
+}
+
+.bottom2 .price span{
+    color:#36F7FC;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom2 button{
+    background-color: #F21FE7;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    
+}
+
+
+.top3 img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bottom3 h3{
+    font-family: "Share Tech", sans-serif;
+    color: #F21FE7;
+    padding-top: 20px;
+}
+
+.bottom3 p{
+    font-family: "Share Tech", sans-serif;
+    color:#aeaeaf;
+    padding: 10px 0px 5px 0px;
+}
+
+.bottom3 .price span{
+    color:#36F7FC;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom3 button{
+    background-color: #F21FE7;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    
+}
